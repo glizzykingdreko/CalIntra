@@ -1,0 +1,59 @@
+body {
+  background-color: #E2DBCC;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 300px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+  color: #23713A;
+}
+
+#social-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-link {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.github {
+  background-color: #69B33B;
+  color: #E2DBCC;
+}
+
+.medium {
+  background-color: #AC9F6D;
+  color: #E2DBCC;
+}
+
+.twitter {
+  background-color: #947C6C;
+  color: #E2DBCC;
+}
+
+#version {
+  font-size: 0.5rem;
+  font-style: italic;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  color: #AC9F6D;
+}
