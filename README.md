@@ -1,6 +1,6 @@
 # CalIntra
-![CalIntra](/images/banner.png)
 
+![CalIntra](/images/banner.png)
 ## Table of Contents
 - [CalIntra](#calintra)
   - [Table of Contents](#table-of-contents)
@@ -34,6 +34,8 @@ _Note: For optimal functionality, Intra Improved must be installed._
 
 CalIntra is perfect for anyone who wants to make the most out of their 42 school experience. By streamlining the process of syncing events and logtime, this extension saves you time and effort, allowing you to focus on what really matters: your education and personal growth. The Cali vibe brought to your scheduling adds excitement and inspiration to your academic planning, ensuring that you stay motivated and engaged throughout your educational journey.
 
+![CalIntra](/images/banner_full_2.png)
+
 But let's be honest, we hate community service and is pretty bad to get it just for missing an event where you were supposed to be. So, CalIntra is also perfect for those who want to avoid community service.
 
 ## Open Source and Transparent
@@ -62,6 +64,8 @@ If you want to contribute to the development of CalIntra, please read the [CONTR
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details
+
+![CalIntra](/images/banner_full.png)
 
 ## Connect with me
 
