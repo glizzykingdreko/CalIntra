@@ -1,6 +1,17 @@
 # CalIntra
 ![CalIntra](/images/banner.png)
 
+## Table of Contents
+- [CalIntra](#calintra)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Why CalIntra](#why-calintra)
+  - [Open Source and Transparent](#open-source-and-transparent)
+  - [Installation](#installation)
+  - [Contribute](#contribute)
+  - [License](#license)
+  - [Connect with me](#connect-with-me)
 ## Introduction
 
 CalIntra is a Chrome extension that revolutionizes the way you manage your 42 school platform events, making it a breeze to sync them with your personal calendar while injecting a touch of Cali vibe to your academic scheduling. Designed for students and staff of the 42 school, CalIntra simplifies event planning and helps you effortlessly stay up-to-date with your registered events.
@@ -47,15 +58,7 @@ Once the extension is approved, you'll be able to install CalIntra directly from
 
 ## Contribute
 
- If you're interested in contributing to CalIntra, here's what you can do:
-
-1. Fork this repository.
-2. Clone the forked repository to your local machine.
-3. Make the necessary changes or improvements to the code.
-4. Commit your changes and push them to your forked repository.
-5. Create a pull request, detailing the changes you've made and the reasons behind them.
-
-I'll review your pull request, and if it aligns with the project's goals, I'll merge your changes into the main repository. Together, we can make CalIntra even better!
+If you want to contribute to the development of CalIntra, please read the [CONTRIBUTING](/CONTRIBUTING.md) file for details on how to get started.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details
