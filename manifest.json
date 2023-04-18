@@ -1,13 +1,13 @@
 {
     "manifest_version": 3,
     "name": "CalIntra",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "Sync 42 school events to your calendar with CalIntra. Automate event syncing to logtime with Cali vibes! Requires Intra Improved",
     "permissions": [
         "scripting"
     ],
     "action": {
-        "default_popup": "popup.html",
+        "default_popup": "html/popup.html",
         "default_icon": {
             "16": "images/icon16.png",
             "48": "images/icon48.png",
@@ -20,7 +20,13 @@
                 "https://profile.intra.42.fr/*"
             ],
             "js": [
-                "content_script.js"
+                "js/jquery-3.6.0.min.js",
+                "js/popper.min.js",
+                "js/bootstrap.min.js",
+                "js/content_script.js"
+            ],
+            "css": [
+                "css/bootstrap.min.css"
             ],
             "run_at": "document_idle"
         }

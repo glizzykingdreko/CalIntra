@@ -8,7 +8,24 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- Upcoming improvement: Update the calendar automatically when subscribing/unsubscribing to an event without requiring a page refresh.
+- Update the calendar automatically when subscribing/unsubscribing to an event without requiring a page refresh.
+- Bulk subscribe/unsubscribe to events.
+- Add a button to subscribe to all events of a given type.
+- Auto subscribe to events based on a filter
+- Get a notification when a new event is added to the calendar.
+- Get a notification X minutes before an event starts with the details.
+- Customize notification in order to have it via email, SMS, etc.
+- Show last star on the extension popup to show love to who support the project.
+
+### Removed
+- ImprovedIntra is no longer required to use CalIntra.
+
+## [0.1.2] - 2023-04-18
+
+### Added
+- The extension now fill the calendar with all the missing days of the month
+- Added tooltips to the upcoming events
+- Changed the color of the events to match the colors of the Intra calendar + custom one for multiple events
 
 ## [0.1.0] - 2023-04-16
 
