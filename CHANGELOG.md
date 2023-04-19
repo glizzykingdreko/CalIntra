@@ -20,6 +20,11 @@ All notable changes to this project will be documented in this file.
 ### Removed
 - ImprovedIntra is no longer required to use CalIntra.
 
+## [0.1.4] Custom Theme Patch - 2023-04-19
+
+### Fixed
+- Support for active custom theme in Improved Intra. It will be improved in the next release. (Thanks to `mschlenz` for making me aware of this issue)
+
 ## [0.1.3] - 2023-04-19
 
 ### Changed

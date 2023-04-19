@@ -42,6 +42,7 @@ But let's be honest, we hate community service and is pretty bad to get it just 
 
 CalIntra is an open-source project, and its source code is available right here in this repository. I believe in transparency and encourage users to explore the code, provide feedback, or even contribute to the extension's development.
 
+![CalIntra](/images/banner_full.png)
 ## Installation
 
 While waiting for the Chrome Web Store approval, you can still prepare for CalIntra by installing the Improved Intra extension:
@@ -65,8 +66,7 @@ If you want to contribute to the development of CalIntra, please read the [CONTR
 ## License
 This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details
 
-![CalIntra](/images/banner_full.png)
-
+![CalIntra](/images/banner_full_3.png)
 ## Connect with me
 
 Stay connected and follow me on:

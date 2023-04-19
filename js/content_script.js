@@ -48,6 +48,10 @@ function fillCalendarTillMonthEnd() {
     // Get the last loaded day
     const lastElement = document.querySelector('g[data-iidate]:last-child');
 
+    // Try to get a day with no presence hours, to copy the style. This will let
+    // CalIntra ti work with any theme. This part will be improved in the future
+    const lastDayWithoutPresence = document.querySelector('g[data-original-title="0h00 (0h00)"]');
+    
     // it should be today but let's parse the date just in case
     const date = new Date(lastElement.getAttribute('data-iidate'));
 
@@ -72,8 +76,8 @@ function fillCalendarTillMonthEnd() {
         var rect = last.querySelector('rect');
         var text = last.querySelector('text');
         
-        // we clone the element
-        const newElement = last.cloneNode(true);
+        // we select the element to clone
+        const newElement = lastDayWithoutPresence ? lastDayWithoutPresence.cloneNode(true) : last.cloneNode(true);
         
         // we get the next day date
         const newDate = new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1);
@@ -86,15 +90,15 @@ function fillCalendarTillMonthEnd() {
         // Add as attribute
         const newDateFormatted = `${year}-${month}-${day}`;
         newElement.setAttribute('data-iidate', newDateFormatted);
-        newElement.setAttribute('data-original-title', ''); // no daily hours obv
+        // no daily hours obv
+        // this can be customized in the future
+        newElement.setAttribute('data-original-title', '0h00'); 
 
         // We set other details
         let new_rect = newElement.querySelector('rect')
         let new_text = newElement.querySelector('text')
         new_rect.setAttribute('data-event-filled', 'false');
         new_text.textContent = newDate.getDate();
-        new_rect.style.setProperty('fill', '#fafafa', '');
-        new_text.style.setProperty('fill', '#ccc', '');
 
 
         // set position rect
@@ -115,10 +119,19 @@ function fillCalendarTillMonthEnd() {
             // reset x position of rect and text
             new_rect.setAttribute('x', firxtRectX);
             new_text.setAttribute('x', firxtTextX);
+        } else {
+            // else we use the same y position, since we may have 
+            // parsed the first day with no presence hours
+            new_rect.setAttribute('y', rect.getAttribute('y'));
+            new_text.setAttribute('y', text.getAttribute('y'));
         }
 
         // show tooltip on hover, the value is  "data-original-title" attribute
-        $(newElement).tooltip();
+        $(newElement).tooltip({
+            container: 'body',
+            placement: 'top',
+            trigger: 'hover'
+        });
         
         // Add the day to the page
         lastElement.parentNode.appendChild(newElement);
