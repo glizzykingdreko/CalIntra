@@ -93,8 +93,6 @@ function fillCalendarTillMonthEnd() {
         let new_text = newElement.querySelector('text')
         new_rect.setAttribute('data-event-filled', 'false');
         new_text.textContent = newDate.getDate();
-        new_rect.style.setProperty('fill', '#fafafa', 'important');
-        new_text.style.setProperty('fill', '#ccc', 'important');
 
 
         // set position rect

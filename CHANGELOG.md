@@ -20,6 +20,14 @@ All notable changes to this project will be documented in this file.
 ### Removed
 - ImprovedIntra is no longer required to use CalIntra.
 
+## [0.1.3] - 2023-04-19
+
+### Changed
+- `fillCalendarTillMonthEnd` changed in order to handle dark theme of Improved Intra
+
+### Removed
+- Removed `scripting` permission from the manifest, as it is no longer required. (I'm used to work with V2 extensions, so I forgot to remove it and Chrome was complaining about it.)
+
 ## [0.1.2] - 2023-04-18
 
 ### Added
