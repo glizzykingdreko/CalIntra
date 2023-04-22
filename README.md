@@ -9,6 +9,8 @@
   - [Why CalIntra](#why-calintra)
   - [Open Source and Transparent](#open-source-and-transparent)
   - [Installation](#installation)
+    - [Chrome Web Store](#chrome-web-store)
+    - [Manual Installation (for developers)](#manual-installation-for-developers)
   - [Contribute](#contribute)
   - [License](#license)
   - [Connect with me](#connect-with-me)
@@ -16,7 +18,7 @@
 
 CalIntra is a Chrome extension that revolutionizes the way you manage your 42 school platform events, making it a breeze to sync them with your personal calendar while injecting a touch of Cali vibe to your academic scheduling. Designed for students and staff of the 42 school, CalIntra simplifies event planning and helps you effortlessly stay up-to-date with your registered events.
 
-```Currently waiting for Chrome Web Store approval.```
+[We live on Chrome Store!](https://chrome.google.com/webstore/detail/calintra/chhhmcbgkanelpkohjoopcgfgameoabi)
 
 ## Features
 
@@ -45,11 +47,12 @@ CalIntra is an open-source project, and its source code is available right here 
 ![CalIntra](/images/banner_full.png)
 ## Installation
 
-While waiting for the Chrome Web Store approval, you can still prepare for CalIntra by installing the Improved Intra extension:
+After installing [Improved Intra](https://chrome.google.com/webstore/detail/improved-intra-42/hmflgigeigiejaogcgamkecmlibcpdgo)
+you can install CalIntra from the Chrome Web Store or manually.
 
-[Improved Intra](https://chrome.google.com/webstore/detail/improved-intra-42/hmflgigeigiejaogcgamkecmlibcpdgo)
-
-To manually install CalIntra, follow these steps:
+### Chrome Web Store
+Simply click [here](https://chrome.google.com/webstore/detail/calintra/chhhmcbgkanelpkohjoopcgfgameoabi) to install CalIntra from the Chrome Web Store.
+### Manual Installation (for developers)
 
 1. Download the CalIntra repository as a ZIP file and extract it to a folder on your computer.
 2. Open the Chrome browser and navigate to `chrome://extensions`.
